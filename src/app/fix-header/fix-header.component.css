@@ -1,0 +1,44 @@
+header {
+    background-color: var(--brand-green);
+    position: sticky;
+    position: -webkit-sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 7px rgba(0,0,0,0.2);
+}
+
+header .navbar{
+    display: flex;
+    align-items: stretch;
+    height: 72px;
+    width: 100%;
+}
+
+header #menu_button{
+    border: none;
+}
+
+header .nav-link{
+    color: white;
+    border-bottom: 3px solid transparent;
+
+    height: 72px;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+}
+header .nav-link:hover{
+    border-bottom: 3px solid white;
+    color: var(--brand-green-light-02);
+}
+
+header .btn{
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+header .btn:hover{
+    background-color: var(--brand-green-hover);
+}

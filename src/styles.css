@@ -1,0 +1,22 @@
+/*FONT IMPLEMENTE - DM SANS*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+/*VARIABLES*/
+:root{
+    --brand-green:#00856F;
+    --brand-green-light:#DCE9E2;
+    --brand-green-light-02: #F7F9F9;
+    --brand-beige:#FFFAF1;
+    --brand-green-hover:#00453A;
+
+    --gray-headline:#212529;
+    --gray-paragraph:#495057;
+    --white:#EDEDED;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
